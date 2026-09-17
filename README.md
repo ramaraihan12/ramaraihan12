@@ -9,7 +9,7 @@ Full-stack developer based in Indonesia. I build and operate production web appl
 
 Reach me at ramaraihan97@gmail.com
 
-:snake: Contribution snake (2026)
+:snake: My Contribution 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://gh-motion-card.vercel.app/api/github-motion?username=ramaraihan12&year=2026&animation=snake&theme=dark" />
   <source media="(prefers-color-scheme: light)" srcset="https://gh-motion-card.vercel.app/api/github-motion?username=ramaraihan12&year=2026&animation=snake&theme=light" />
