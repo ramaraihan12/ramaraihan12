@@ -9,9 +9,9 @@ Full-stack developer based in Indonesia. I build and operate production web appl
 
 Reach me at ramaraihan97@gmail.com
 
-:snake: Contribution snake
+:snake: Contribution snake (2026)
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ramaraihan12/ramaraihan12/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ramaraihan12/ramaraihan12/output/github-snake.svg" />
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/ramaraihan12/ramaraihan12/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://gh-motion-card.vercel.app/api/github-motion?username=ramaraihan12&year=2026&animation=snake&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://gh-motion-card.vercel.app/api/github-motion?username=ramaraihan12&year=2026&animation=snake&theme=light" />
+  <img alt="GitHub contribution snake 2026" src="https://gh-motion-card.vercel.app/api/github-motion?username=ramaraihan12&year=2026&animation=snake&theme=dark" />
 </picture>
