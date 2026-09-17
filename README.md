@@ -1,6 +1,6 @@
 ## Hi, I'm Rama
 
-Full-stack developer based in Salatiga, Indonesia. I build and operate production web applications in Laravel and Next.js.
+Full-stack developer based in Indonesia. I build and operate production web applications in Laravel and Next.js.
 
 
 **Stack**
