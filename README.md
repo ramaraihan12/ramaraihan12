@@ -62,7 +62,7 @@ Icons on their own never tell you much, so here's what each one actually is and 
 
 ## My contribution graph
 
-Pac-Man is working through my commits. Redraws itself once a day.
+Pac-Man is eating my commits.
 
 <!-- pacman -->
 <picture>
