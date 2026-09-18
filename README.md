@@ -60,17 +60,6 @@ Icons on their own never tell you much, so here's what each one actually is and 
 
 ---
 
-## Some things I've built
-
-| Project | What it is | Built with |
-|:--------|:-----------|:------|
-| [**piwulang-becik**](https://github.com/ramaraihan12/piwulang-becik) | Learning platform for Student Club PKBM Piwulang Becik | Next.js, TypeScript, MongoDB |
-| [**pbx-v2**](https://github.com/ramaraihan12/pbx-v2) | Management system for a PKBM | Laravel, Blade, PHP, Docker |
-| [**ralaexV2.0**](https://github.com/ramaraihan12/ralaexV2.0) | App for tracking household finances | Next.js, TypeScript, PostgreSQL |
-| [**weddsinv**](https://github.com/ramaraihan12/weddsinv) | Digital wedding invitations | Next.js, TypeScript |
-
----
-
 ## My contribution graph
 
 Pac-Man is working through my commits. Redraws itself once a day.
