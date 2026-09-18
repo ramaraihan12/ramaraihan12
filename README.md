@@ -1,8 +1,8 @@
-<h1 align="center">Hi 👋, I'm Rama Raihan</h1>
+<h1 align="center">Hi, I'm Rama Raihan</h1>
 
 <p align="center">
-  <b>Full-stack developer</b> based in Salatiga, Indonesia 🇮🇩<br/>
-  I build and operate production web applications with <b>Laravel</b> and <b>Next.js</b>.
+  Full stack developer from Salatiga, Indonesia.<br/>
+  I build and run web apps in Laravel and Next.js, mostly for schools and small businesses around here.
 </p>
 
 <p align="center">
@@ -13,67 +13,67 @@
 
 ---
 
-## 🧰 Tech Stack
+## What I work with
 
-Every icon below is labelled — so you always know which tool is which, and what I actually use it for.
+Icons on their own never tell you much, so here's what each one actually is and where I use it.
 
-### 🎨 Frontend
+### Frontend
 
-| Icon | Name | What I use it for |
+| | Name | Where I use it |
 |:----:|:-----|:------------------|
-| <img src="https://skillicons.dev/icons?i=nextjs" width="36" alt="Next.js" /> | **Next.js** | Main app framework — App Router, server components, SSR/ISR |
-| <img src="https://skillicons.dev/icons?i=react" width="36" alt="React" /> | **React** | Component-driven UI, hooks, client-side state |
-| <img src="https://skillicons.dev/icons?i=ts" width="36" alt="TypeScript" /> | **TypeScript** | Type-safe code from API routes down to UI props |
-| <img src="https://skillicons.dev/icons?i=tailwind" width="36" alt="Tailwind CSS" /> | **Tailwind CSS** | Utility-first styling and consistent design tokens |
-| <img src="https://skillicons.dev/icons?i=vite" width="36" alt="Vite" /> | **Vite** | Dev server and asset bundling for Laravel front-ends |
+| <img src="https://skillicons.dev/icons?i=nextjs" width="36" alt="Next.js" /> | **Next.js** | Most of my apps run on it. App Router, server components, the usual setup. |
+| <img src="https://skillicons.dev/icons?i=react" width="36" alt="React" /> | **React** | Building the interface. Components, hooks, client state. |
+| <img src="https://skillicons.dev/icons?i=ts" width="36" alt="TypeScript" /> | **TypeScript** | I write everything in it now. Catches my mistakes before they reach the browser. |
+| <img src="https://skillicons.dev/icons?i=tailwind" width="36" alt="Tailwind CSS" /> | **Tailwind CSS** | Styling. Quicker for me than keeping a separate stylesheet in sync. |
+| <img src="https://skillicons.dev/icons?i=vite" width="36" alt="Vite" /> | **Vite** | Bundles the frontend assets on my Laravel projects. |
 
-### ⚙️ Backend
+### Backend
 
-| Icon | Name | What I use it for |
+| | Name | Where I use it |
 |:----:|:-----|:------------------|
-| <img src="https://skillicons.dev/icons?i=laravel" width="36" alt="Laravel" /> | **Laravel** | REST APIs, Eloquent ORM, queues, auth, Blade views |
-| <img src="https://skillicons.dev/icons?i=php" width="36" alt="PHP" /> | **PHP** | Primary backend language for Laravel services |
-| <img src="https://skillicons.dev/icons?i=nodejs" width="36" alt="Node.js" /> | **Node.js** | Runtime behind Next.js route handlers and server actions |
-| 🧪 | **PHPUnit** | Feature and unit tests for Laravel projects |
+| <img src="https://skillicons.dev/icons?i=laravel" width="36" alt="Laravel" /> | **Laravel** | APIs, Eloquent, queues, auth. Blade when a page is better rendered on the server. |
+| <img src="https://skillicons.dev/icons?i=php" width="36" alt="PHP" /> | **PHP** | The language behind all the Laravel work. |
+| <img src="https://skillicons.dev/icons?i=nodejs" width="36" alt="Node.js" /> | **Node.js** | Runs the server side of Next.js, route handlers and server actions. |
+| 🧪 | **PHPUnit** | Tests on the Laravel side, feature tests more than unit tests. |
 
-### 🗄️ Database
+### Database
 
-| Icon | Name | What I use it for |
+| | Name | Where I use it |
 |:----:|:-----|:------------------|
-| <img src="https://skillicons.dev/icons?i=postgres" width="36" alt="PostgreSQL" /> | **PostgreSQL** | Relational data, migrations, PL/pgSQL functions |
-| <img src="https://skillicons.dev/icons?i=mongodb" width="36" alt="MongoDB" /> | **MongoDB** | Document store for LMS content and flexible schemas |
+| <img src="https://skillicons.dev/icons?i=postgres" width="36" alt="PostgreSQL" /> | **PostgreSQL** | My default. Relational data, migrations, a bit of PL/pgSQL when a query gets hairy. |
+| <img src="https://skillicons.dev/icons?i=mongodb" width="36" alt="MongoDB" /> | **MongoDB** | Used on the LMS, where the shape of the content kept changing on me. |
 
-### 🚀 DevOps & Deployment
+### Deployment
 
-| Icon | Name | What I use it for |
+| | Name | Where I use it |
 |:----:|:-----|:------------------|
-| <img src="https://skillicons.dev/icons?i=docker" width="36" alt="Docker" /> | **Docker** | Containerised builds and reproducible environments |
-| <img src="https://skillicons.dev/icons?i=githubactions" width="36" alt="GitHub Actions" /> | **GitHub Actions** | CI pipelines, automated tests and deploys |
-| <img src="https://cdn.simpleicons.org/coolify/8B5CF6" width="32" alt="Coolify" /> | **Coolify** | Self-hosted PaaS — deploying apps to my own VPS |
-| <img src="https://skillicons.dev/icons?i=git" width="36" alt="Git" /> | **Git** | Version control and branch-based workflows |
+| <img src="https://skillicons.dev/icons?i=docker" width="36" alt="Docker" /> | **Docker** | So the app behaves the same on my laptop as it does on the server. |
+| <img src="https://skillicons.dev/icons?i=githubactions" width="36" alt="GitHub Actions" /> | **GitHub Actions** | Runs the tests and ships the build whenever I push. |
+| <img src="https://cdn.simpleicons.org/coolify/8B5CF6" width="32" alt="Coolify" /> | **Coolify** | Deploys everything to my own VPS instead of renting a platform. |
+| <img src="https://skillicons.dev/icons?i=git" width="36" alt="Git" /> | **Git** | Version control, one branch per feature. |
 
-### 🔌 Services & Integrations
+### Payments
 
-| Icon | Name | What I use it for |
+| | Name | Where I use it |
 |:----:|:-----|:------------------|
-| 💳 | **Midtrans** | Payment gateway for Indonesian checkout flows |
+| 💳 | **Midtrans** | Checkout and payment handling for the Indonesian projects. |
 
 ---
 
-## 📌 Featured Projects
+## Some things I've built
 
-| Project | What it is | Stack |
+| Project | What it is | Built with |
 |:--------|:-----------|:------|
-| [**piwulang-becik**](https://github.com/ramaraihan12/piwulang-becik) | LMS for Student Club PKBM Piwulang Becik | Next.js · TypeScript · MongoDB |
-| [**pbx-v2**](https://github.com/ramaraihan12/pbx-v2) | PKBM management system | Laravel · Blade · PHP · Docker |
-| [**ralaexV2.0**](https://github.com/ramaraihan12/ralaexV2.0) | Household financial application | Next.js · TypeScript · PostgreSQL |
-| [**weddsinv**](https://github.com/ramaraihan12/weddsinv) | Digital wedding invitation | Next.js · TypeScript |
+| [**piwulang-becik**](https://github.com/ramaraihan12/piwulang-becik) | Learning platform for Student Club PKBM Piwulang Becik | Next.js, TypeScript, MongoDB |
+| [**pbx-v2**](https://github.com/ramaraihan12/pbx-v2) | Management system for a PKBM | Laravel, Blade, PHP, Docker |
+| [**ralaexV2.0**](https://github.com/ramaraihan12/ralaexV2.0) | App for tracking household finances | Next.js, TypeScript, PostgreSQL |
+| [**weddsinv**](https://github.com/ramaraihan12/weddsinv) | Digital wedding invitations | Next.js, TypeScript |
 
 ---
 
-## 👾 My Contribution Graph
+## My contribution graph
 
-Pac-Man is eating my commits, and the ghosts are not happy about it.
+Pac-Man is working through my commits. Redraws itself once a day.
 
 <!-- pacman -->
 <picture>
@@ -85,5 +85,5 @@ Pac-Man is eating my commits, and the ghosts are not happy about it.
 ---
 
 <p align="center">
-  📫 Reach me at <a href="mailto:ramaraihan97@gmail.com">ramaraihan97@gmail.com</a>
+  Want to talk? <a href="mailto:ramaraihan97@gmail.com">ramaraihan97@gmail.com</a>
 </p>
