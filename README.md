@@ -2,7 +2,7 @@
 
 <p align="center">
   Full stack developer from Salatiga, Indonesia.<br/>
-  I build and run web apps in Laravel and Next.js, mostly for schools and small businesses around here.
+  I build and run web apps in Next.js and Laravel.
 </p>
 
 <p align="center">
