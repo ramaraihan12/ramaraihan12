@@ -2,7 +2,7 @@
 
 <p align="center">
   Full stack developer from Salatiga, Indonesia.<br/>
-  I build and run web apps in Next.js and Laravel.
+  I build and run web apps in Laravel and Next.js, mostly for schools and small businesses around here.
 </p>
 
 <p align="center">
@@ -15,6 +15,7 @@
 
 ## What I work with
 
+Icons on their own never tell you much, so here's what each one actually is and where I use it.
 
 ### Frontend
 
@@ -40,6 +41,7 @@
 | | Name | Where I use it |
 |:----:|:-----|:------------------|
 | <img src="https://skillicons.dev/icons?i=postgres" width="36" alt="PostgreSQL" /> | **PostgreSQL** | My default. Relational data, migrations, a bit of PL/pgSQL when a query gets hairy. |
+| <img src="https://skillicons.dev/icons?i=mysql" width="36" alt="MySQL" /> | **MySQL** | What most of my Laravel projects sit on, especially the ones on shared hosting. |
 | <img src="https://skillicons.dev/icons?i=mongodb" width="36" alt="MongoDB" /> | **MongoDB** | Used on the LMS, where the shape of the content kept changing on me. |
 
 ### Deployment
@@ -61,7 +63,7 @@
 
 ## My contribution graph
 
-Pac-Man is eating my commits.
+Pac-Man is working through my commits. Redraws itself once a day.
 
 <!-- pacman -->
 <picture>
