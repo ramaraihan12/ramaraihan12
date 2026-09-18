@@ -84,15 +84,6 @@ Pac-Man is eating my commits, and the ghosts are not happy about it.
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ramaraihan12&show_icons=true&hide_border=true&theme=transparent" alt="GitHub stats" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ramaraihan12&layout=compact&hide_border=true&theme=transparent" alt="Top languages" height="160" />
-</p>
-
----
-
 <p align="center">
   📫 Reach me at <a href="mailto:ramaraihan97@gmail.com">ramaraihan97@gmail.com</a>
 </p>
