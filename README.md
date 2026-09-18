@@ -15,8 +15,6 @@
 
 ## What I work with
 
-Icons on their own never tell you much, so here's what each one actually is and where I use it.
-
 ### Frontend
 
 | | Name | Where I use it |
@@ -63,7 +61,7 @@ Icons on their own never tell you much, so here's what each one actually is and 
 
 ## My contribution graph
 
-Pac-Man is working through my commits. Redraws itself once a day.
+Pac-Man is working through my commits. 
 
 <!-- pacman -->
 <picture>
