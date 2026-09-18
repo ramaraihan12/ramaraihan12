@@ -15,7 +15,6 @@
 
 ## What I work with
 
-Icons on their own never tell you much, so here's what each one actually is and where I use it.
 
 ### Frontend
 
