@@ -2,7 +2,7 @@
 
 <p align="center">
   Full stack developer from Salatiga, Indonesia.<br/>
-  I build web apps in Laravel and Next.js, and lately I build AI features into them: LLM apps, RAG and agents.
+  I build web apps in Laravel and Next.js, and now LLM apps too: RAG, agents and the tools around them.
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@
 |:----:|:-----|:------------------|
 | <img src="https://skillicons.dev/icons?i=nextjs" width="36" alt="Next.js" /> | **Next.js** | Most of my apps run on it. App Router, server components, the usual setup. |
 | <img src="https://skillicons.dev/icons?i=react" width="36" alt="React" /> | **React** | Building the interface. Components, hooks, client state. |
-| <img src="https://skillicons.dev/icons?i=ts" width="36" alt="TypeScript" /> | **TypeScript** | I write everything in it now. Catches my mistakes before they reach the browser. |
+| <img src="https://skillicons.dev/icons?i=ts" width="36" alt="TypeScript" /> | **TypeScript** | All my frontend and Node code is TypeScript now. Catches my mistakes before they reach the browser. |
 | <img src="https://skillicons.dev/icons?i=tailwind" width="36" alt="Tailwind CSS" /> | **Tailwind CSS** | Styling. Quicker for me than keeping a separate stylesheet in sync. |
 | <img src="https://skillicons.dev/icons?i=vite" width="36" alt="Vite" /> | **Vite** | Bundles the frontend assets on my Laravel projects. |
 
@@ -44,28 +44,28 @@
 |:----:|:-----|:------------------|
 | <img src="https://skillicons.dev/icons?i=postgres" width="36" alt="PostgreSQL" /> | **PostgreSQL** | My default. Relational data, migrations, a bit of PL/pgSQL when a query gets hairy. |
 | <img src="https://skillicons.dev/icons?i=mysql" width="36" alt="MySQL" /> | **MySQL** | What most of my Laravel projects sit on, especially the ones on shared hosting. |
-| <img src="https://skillicons.dev/icons?i=mongodb" width="36" alt="MongoDB" /> | **MongoDB** | Used on the LMS, where the shape of the content kept changing on me. |
+| <img src="https://skillicons.dev/icons?i=mongodb" width="36" alt="MongoDB" /> | **MongoDB** | Used on an LMS, where the shape of the content kept changing on me. |
 
 ### Deployment
 
 | | Name | Where I use it |
 |:----:|:-----|:------------------|
 | <img src="https://skillicons.dev/icons?i=docker" width="36" alt="Docker" /> | **Docker** | So the app behaves the same on my laptop as it does on the server. |
-| <img src="https://skillicons.dev/icons?i=githubactions" width="36" alt="GitHub Actions" /> | **GitHub Actions** | Runs the tests and ships the build whenever I push. |
-| <img src="https://cdn.simpleicons.org/coolify/8B5CF6" width="32" alt="Coolify" /> | **Coolify** | Deploys everything to my own VPS instead of renting a platform. |
+| <img src="https://skillicons.dev/icons?i=githubactions" width="36" alt="GitHub Actions" /> | **GitHub Actions** | Runs lint and tests on every push, and deploys my portfolio to GitHub Pages. |
+| <img src="https://cdn.simpleicons.org/coolify/8B5CF6" width="32" alt="Coolify" /> | **Coolify** | Deploys my Laravel and Next.js apps to my own VPS instead of renting a platform. |
 | <img src="https://skillicons.dev/icons?i=git" width="36" alt="Git" /> | **Git** | Version control, one branch per feature. |
 
 ### AI
 
 | | Name | Where I use it |
 |:----:|:-----|:------------------|
-| <img src="https://skillicons.dev/icons?i=fastapi" width="36" alt="FastAPI" /> | **FastAPI** | The API behind my Python projects, with streaming answers over server-sent events. |
-| <img src="https://cdn.simpleicons.org/langchain/1C3C3C" width="32" alt="LangChain" /> | **LangChain / LangGraph** | A research agent with a plan, a human review step and parallel searches (LangGraph), and the chat model layer in text-to-sql-chat. |
+| <img src="https://skillicons.dev/icons?i=fastapi" width="36" alt="FastAPI" /> | **FastAPI** | Serves my docs assistant and research agent, with answers streamed over server-sent events. |
+| <img src="https://cdn.simpleicons.org/langchain/888888" width="32" alt="LangChain" /> | **LangChain / LangGraph** | LangGraph runs my research agent: a plan, a human review step, then parallel searches. LangChain handles the model calls in text-to-sql-chat. |
 | 🦙 | **LlamaIndex** | Document ingestion and pgvector search in my docs question-answering app. |
 | <img src="https://skillicons.dev/icons?i=vercel" width="36" alt="Vercel AI SDK" /> | **Vercel AI SDK** | Streaming chat and tool calls in a Next.js support bot. |
-| 🐘 | **Prism PHP** | Reads supplier invoices into typed data inside a Laravel app. |
-| <img src="https://cdn.simpleicons.org/ollama/888888" width="32" alt="Ollama" /> | **Ollama and llama.cpp** | Local models. Every project defaults to Ollama so it runs for free, and I run llama.cpp on my laptop for coding. |
-| 🔌 | **OpenAI, Gemini and Claude APIs** | Switchable by config in every project, and put behind one endpoint in my llm-gateway. |
+| <img src="https://skillicons.dev/icons?i=php" width="36" alt="Prism PHP" /> | **Prism PHP** | Reads supplier invoices into typed data inside a Laravel app. |
+| <img src="https://cdn.simpleicons.org/ollama/888888" width="32" alt="Ollama" /> | **Ollama and llama.cpp** | Local models. My apps default to Ollama so they cost nothing to run, and I code with llama.cpp on my laptop. |
+| 🔌 | **OpenAI, Gemini and Claude APIs** | One setting switches providers in each AI app, and my llm-gateway puts all of them behind one endpoint. |
 | <img src="https://cdn.simpleicons.org/postgresql/4169E1" width="32" alt="pgvector" /> | **pgvector** | Vector search inside Postgres, so there is no separate vector database to run. |
 | <img src="https://cdn.simpleicons.org/modelcontextprotocol/888888" width="32" alt="MCP" /> | **MCP** | Exposes the guarded SQL tools of text-to-sql-chat to Claude Desktop and Cursor. |
 
@@ -89,19 +89,19 @@ AI apps
 
 Tools
 
-- [llm-gateway](https://github.com/ramaraihan12/llm-gateway): one OpenAI-compatible endpoint in front of OpenAI, Gemini, Anthropic and Ollama, with fallback, rate limits and cost logs. TypeScript, Hono.
+- [llm-gateway](https://github.com/ramaraihan12/llm-gateway): one OpenAI-compatible endpoint in front of OpenAI, Gemini, Claude and Ollama, with fallback, rate limits and cost logs. TypeScript, Hono.
 - [issue-triage-action](https://github.com/ramaraihan12/issue-triage-action): a GitHub Action that labels new issues, points out likely duplicates and asks for missing details. TypeScript.
 - [local-ai-coding-setup](https://github.com/ramaraihan12/local-ai-coding-setup): the free local coding setup I run on a 6 GB laptop GPU, with scripts and benchmarks. llama.cpp, Ollama.
 
 Other
 
-- [ralaex](https://github.com/ramaraihan12/ralaex): a household finance app my wife and I use every day. Next.js, Supabase.
+- [ralaex](https://github.com/ramaraihan12/ralaex): a household finance app my wife and I use. Next.js, Supabase.
 
 ---
 
 ## My contribution graph
 
-Pac-Man is working through my commits. 
+Pac-Man is working through my commits.
 
 <!-- pacman -->
 <picture>
