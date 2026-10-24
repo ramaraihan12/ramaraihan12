@@ -21,7 +21,7 @@
 
 ### Frontend
 
-| | Name | Where I use it |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Name | Where I use it |
 |:----:|:-----|:------------------|
 | <img src="https://skillicons.dev/icons?i=nextjs" width="36" alt="Next.js" /> | **Next.js** | Most of my apps run on it. App Router, server components, the usual setup. My offline-first till, warung-pos, is a Next.js 16 PWA. |
 | <img src="https://skillicons.dev/icons?i=react" width="36" alt="React" /> | **React** | Building the interface. Components, hooks, client state. Also the frontend of antre, through Inertia. |
@@ -34,7 +34,7 @@
 
 ### Backend
 
-| | Name | Where I use it |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Name | Where I use it |
 |:----:|:-----|:------------------|
 | <img src="https://skillicons.dev/icons?i=laravel" width="36" alt="Laravel" /> | **Laravel** | APIs, Eloquent, queues, auth. Blade when a page is better rendered on the server. |
 | <img src="icons/reverb.svg" width="32" alt="Laravel Reverb" /> | **Laravel Reverb** | Websockets for antre. Ticket calls reach the staff console and the waiting room TV without polling. |
@@ -47,7 +47,7 @@
 
 ### Database
 
-| | Name | Where I use it |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Name | Where I use it |
 |:----:|:-----|:------------------|
 | <img src="https://skillicons.dev/icons?i=postgres" width="36" alt="PostgreSQL" /> | **PostgreSQL** | My default. Relational data, migrations, a bit of PL/pgSQL when a query gets hairy. Row locks with SKIP LOCKED for queues in antre and webhook-inbox. |
 | <img src="https://skillicons.dev/icons?i=mysql" width="36" alt="MySQL" /> | **MySQL** | What most of my Laravel projects sit on, especially the ones on shared hosting. |
@@ -57,7 +57,7 @@
 
 ### Testing
 
-| | Name | Where I use it |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Name | Where I use it |
 |:----:|:-----|:------------------|
 | <img src="icons/pest.svg" width="56" alt="Pest" /> <img src="icons/phpunit.svg" width="56" alt="PHPUnit" /> | **Pest / PHPUnit** | Tests on the Laravel side, feature tests more than unit tests. antre's tests run on Pest; PHPUnit is what it sits on. |
 | <img src="https://cdn.simpleicons.org/vitest/6E9F18" width="32" alt="Vitest" /> | **Vitest** | Unit and integration tests in my TypeScript projects, including warung-pos. |
@@ -66,9 +66,9 @@
 | <img src="icons/testcontainers.svg" width="32" alt="Testcontainers" /> | **Testcontainers** | pg-backup tests start a real Postgres 17 and MinIO in Docker instead of mocking them. |
 
 
-### Deployment
+### Deployment and ops
 
-| | Name | Where I use it |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Name | Where I use it |
 |:----:|:-----|:------------------|
 | <img src="https://skillicons.dev/icons?i=docker" width="36" alt="Docker" /> | **Docker** | So the app behaves the same on my laptop as it does on the server. |
 | <img src="https://skillicons.dev/icons?i=githubactions" width="36" alt="GitHub Actions" /> | **GitHub Actions** | Runs lint and tests on every push, and deploys my portfolio to GitHub Pages. |
@@ -80,14 +80,14 @@
 
 ### Payments
 
-| | Name | Where I use it |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Name | Where I use it |
 |:----:|:-----|:------------------|
-| <img src="icons/midtrans.svg" width="96" alt="Midtrans" /> | **Midtrans** | Checkout and payment handling for the Indonesian projects. webhook-inbox checks its callback signatures. |
+| <img src="icons/midtrans.svg" width="80" alt="Midtrans" /> | **Midtrans** | Checkout and payment handling for the Indonesian projects. webhook-inbox checks its callback signatures. |
 
 
 ### AI
 
-| | Name | Where I use it |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Name | Where I use it |
 |:----:|:-----|:------------------|
 | <img src="https://skillicons.dev/icons?i=fastapi" width="36" alt="FastAPI" /> | **FastAPI** | Serves my docs assistant and research agent, with answers streamed over server-sent events. |
 | <img src="https://cdn.simpleicons.org/langchain/888888" width="32" alt="LangChain" /> | **LangChain / LangGraph** | LangGraph runs my research agent: a plan, a human review step, then parallel searches. LangChain handles the model calls in text-to-sql-chat. |
@@ -95,8 +95,8 @@
 | <img src="https://skillicons.dev/icons?i=vercel" width="36" alt="Vercel AI SDK" /> | **Vercel AI SDK** | Streaming chat and tool calls in a Next.js support bot. |
 | <img src="icons/prism.webp" width="56" alt="Prism PHP" /> | **Prism PHP** | Reads supplier invoices into typed data inside a Laravel app. |
 | <img src="https://cdn.simpleicons.org/ollama/888888" width="32" alt="Ollama" /> | **Ollama and llama.cpp** | Local models. My apps default to Ollama so they cost nothing to run, and I code with llama.cpp on my laptop. |
-| <img src="icons/openai.svg" width="32" alt="OpenAI" /> <img src="https://cdn.simpleicons.org/googlegemini/8E75B2" width="32" alt="Gemini" /> <img src="https://cdn.simpleicons.org/claude/D97757" width="32" alt="Claude" /> | **OpenAI, Gemini and Claude APIs** | One setting switches providers in each AI app, and my llm-gateway puts all of them behind one endpoint. |
-| <img src="https://cdn.simpleicons.org/postgresql/4169E1" width="32" alt="pgvector" /> | **pgvector** | Vector search inside Postgres, so there is no separate vector database to run. |
+| <img src="icons/openai.svg" width="24" alt="OpenAI" /> <img src="https://cdn.simpleicons.org/googlegemini/8E75B2" width="24" alt="Gemini" /> <img src="https://cdn.simpleicons.org/claude/D97757" width="24" alt="Claude" /> | **OpenAI, Gemini and Claude APIs** | One setting switches providers in each AI app, and my llm-gateway puts all of them behind one endpoint. |
+| <img src="https://cdn.simpleicons.org/postgresql/4169E1" width="32" alt="PostgreSQL (pgvector)" /> | **pgvector** | Vector search inside Postgres, so there is no separate vector database to run. |
 | <img src="https://cdn.simpleicons.org/modelcontextprotocol/888888" width="32" alt="MCP" /> | **MCP** | Exposes the guarded SQL tools of text-to-sql-chat to Claude Desktop and Cursor. |
 
 ---
