@@ -1,8 +1,8 @@
 <h1 align="center">Hi, I'm Rama Raihan</h1>
 
 <p align="center">
-  Full stack developer from Salatiga, Indonesia.<br/>
-  I build web apps end to end in Laravel and Next.js, with Postgres underneath.<br/>
+  Full-stack developer from Salatiga, Indonesia.<br/>
+  I build web apps end to end in Laravel and Next.js, with Postgres or MySQL underneath.<br/>
   I also build LLM apps: RAG, agents and the tools around them.
 </p>
 
@@ -37,7 +37,7 @@
 | | Name | Where I use it |
 |:----:|:-----|:------------------|
 | <img src="https://skillicons.dev/icons?i=laravel" width="36" alt="Laravel" /> | **Laravel** | APIs, Eloquent, queues, auth. Blade when a page is better rendered on the server. |
-| <img src="https://skillicons.dev/icons?i=laravel" width="36" alt="Laravel Reverb" /> | **Laravel Reverb** | Websockets for antre. Ticket calls reach the staff console and the waiting room TV without polling. |
+| <img src="icons/reverb.svg" width="32" alt="Laravel Reverb" /> | **Laravel Reverb** | Websockets for antre. Ticket calls reach the staff console and the waiting room TV without polling. |
 | <img src="https://skillicons.dev/icons?i=php" width="36" alt="PHP" /> | **PHP** | The language behind all the Laravel work. |
 | <img src="https://skillicons.dev/icons?i=nodejs" width="36" alt="Node.js" /> | **Node.js** | Runs the server side of Next.js, route handlers and server actions. |
 | <img src="https://skillicons.dev/icons?i=python" width="36" alt="Python" /> | **Python** | Backend for my AI projects, managed with uv. |
@@ -59,7 +59,7 @@
 
 | | Name | Where I use it |
 |:----:|:-----|:------------------|
-| <img src="icons/pest.svg" width="64" alt="Pest" /> | **Pest / PHPUnit** | Tests on the Laravel side, feature tests more than unit tests. Pest runs antre; PHPUnit is what it sits on. |
+| <img src="icons/pest.svg" width="56" alt="Pest" /> <img src="icons/phpunit.svg" width="56" alt="PHPUnit" /> | **Pest / PHPUnit** | Tests on the Laravel side, feature tests more than unit tests. antre's tests run on Pest; PHPUnit is what it sits on. |
 | <img src="https://cdn.simpleicons.org/vitest/6E9F18" width="32" alt="Vitest" /> | **Vitest** | Unit and integration tests in my TypeScript projects, including warung-pos. |
 | <img src="https://cdn.simpleicons.org/pytest/0A9EDC" width="32" alt="pytest" /> | **pytest** | Tests in my Python projects. |
 | <img src="icons/playwright.svg" width="32" alt="Playwright" /> | **Playwright** | Browser tests. In warung-pos they switch the network off and check that offline sales sync later. In antre they run against a live websocket server. |
@@ -93,7 +93,7 @@
 | <img src="https://cdn.simpleicons.org/langchain/888888" width="32" alt="LangChain" /> | **LangChain / LangGraph** | LangGraph runs my research agent: a plan, a human review step, then parallel searches. LangChain handles the model calls in text-to-sql-chat. |
 | <img src="icons/llamaindex.png" width="32" alt="LlamaIndex" /> | **LlamaIndex** | Document ingestion and pgvector search in my docs question-answering app. |
 | <img src="https://skillicons.dev/icons?i=vercel" width="36" alt="Vercel AI SDK" /> | **Vercel AI SDK** | Streaming chat and tool calls in a Next.js support bot. |
-| <img src="https://skillicons.dev/icons?i=php" width="36" alt="Prism PHP" /> | **Prism PHP** | Reads supplier invoices into typed data inside a Laravel app. |
+| <img src="icons/prism.webp" width="56" alt="Prism PHP" /> | **Prism PHP** | Reads supplier invoices into typed data inside a Laravel app. |
 | <img src="https://cdn.simpleicons.org/ollama/888888" width="32" alt="Ollama" /> | **Ollama and llama.cpp** | Local models. My apps default to Ollama so they cost nothing to run, and I code with llama.cpp on my laptop. |
 | <img src="icons/openai.svg" width="32" alt="OpenAI" /> <img src="https://cdn.simpleicons.org/googlegemini/8E75B2" width="32" alt="Gemini" /> <img src="https://cdn.simpleicons.org/claude/D97757" width="32" alt="Claude" /> | **OpenAI, Gemini and Claude APIs** | One setting switches providers in each AI app, and my llm-gateway puts all of them behind one endpoint. |
 | <img src="https://cdn.simpleicons.org/postgresql/4169E1" width="32" alt="pgvector" /> | **pgvector** | Vector search inside Postgres, so there is no separate vector database to run. |
