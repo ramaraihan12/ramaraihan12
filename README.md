@@ -1,3 +1,5 @@
+<a href="https://ramaraihan.is-a.dev"><img src="assets/banner.svg" alt="Rama Raihan, full-stack developer in Salatiga, Indonesia" width="100%" /></a>
+
 <h1 align="center">Hi, I'm Rama Raihan</h1>
 
 <p align="center">
