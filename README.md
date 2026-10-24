@@ -1,7 +1,5 @@
 <a href="https://ramaraihan.is-a.dev"><img src="assets/banner.svg" alt="Rama Raihan, full-stack developer in Salatiga, Indonesia" width="100%" /></a>
 
-<h1 align="center">Hi, I'm Rama Raihan</h1>
-
 <p align="center">
   Full-stack developer from Salatiga, Indonesia.<br/>
   I build web apps end to end in Laravel and Next.js, with Postgres or MySQL underneath.<br/>
@@ -118,6 +116,7 @@ Backend and tools
 - [llm-gateway](https://github.com/ramaraihan12/llm-gateway): one OpenAI-compatible endpoint in front of OpenAI, Gemini, Claude and Ollama, with fallback, rate limits and cost logs. TypeScript, Hono.
 - [issue-triage-action](https://github.com/ramaraihan12/issue-triage-action): a GitHub Action that labels new issues, points out likely duplicates and asks for missing details. TypeScript.
 - [local-ai-coding-setup](https://github.com/ramaraihan12/local-ai-coding-setup): the free local coding setup I run on a 6 GB laptop GPU, with scripts and benchmarks. llama.cpp, Ollama.
+- [chaBubbleTwitch](https://github.com/ramaraihan12/chaBubbleTwitch): a free Twitch chat overlay for OBS that shows chat as wooden speech bubbles. It joins chat anonymously, so there's no login and no token. HTML, JavaScript, tmi.js. [Live page](https://ramaraihan.is-a.dev/chaBubbleTwitch/) with a setup guide in Indonesian.
 
 AI apps
 
@@ -126,6 +125,7 @@ AI apps
 - [shop-support-bot](https://github.com/ramaraihan12/shop-support-bot): support chatbot for a small shop that checks orders and stock, opens tickets and hands over to a human. Next.js, Vercel AI SDK, pgvector.
 - [invoice-flow](https://github.com/ramaraihan12/invoice-flow): reads supplier invoices with an LLM, flags what looks wrong and exports approved ones to CSV and a signed webhook. Laravel, Prism PHP.
 - [text-to-sql-chat](https://github.com/ramaraihan12/text-to-sql-chat): ask a sales database questions in English or Indonesian, with the SQL checked before it runs. Python, LangChain, Streamlit, MCP.
+- [project-clipper](https://ramaraihan.is-a.dev/project-clipper/): my own pipeline that turns long videos into vertical 9:16 clips. It transcribes the video, picks the segments, crops them, burns in subtitles and uploads them to my YouTube channel. The code isn't public. Python, faster-whisper, Gemini, OpenCV, ffmpeg.
 
 ---
 
