@@ -57,7 +57,7 @@
 
 ### Testing
 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Name | Where I use it |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Name | Where I use it |
 |:----:|:-----|:------------------|
 | <img src="icons/pest.svg" width="56" alt="Pest" /> <img src="icons/phpunit.svg" width="56" alt="PHPUnit" /> | **Pest / PHPUnit** | Tests on the Laravel side, feature tests more than unit tests. antre's tests run on Pest; PHPUnit is what it sits on. |
 | <img src="https://cdn.simpleicons.org/vitest/6E9F18" width="32" alt="Vitest" /> | **Vitest** | Unit and integration tests in my TypeScript projects, including warung-pos. |
@@ -87,7 +87,7 @@
 
 ### AI
 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Name | Where I use it |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Name | Where I use it |
 |:----:|:-----|:------------------|
 | <img src="https://skillicons.dev/icons?i=fastapi" width="36" alt="FastAPI" /> | **FastAPI** | Serves my docs assistant and research agent, with answers streamed over server-sent events. |
 | <img src="https://cdn.simpleicons.org/langchain/888888" width="32" alt="LangChain" /> | **LangChain / LangGraph** | LangGraph runs my research agent: a plan, a human review step, then parallel searches. LangChain handles the model calls in text-to-sql-chat. |
