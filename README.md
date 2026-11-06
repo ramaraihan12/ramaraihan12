@@ -105,26 +105,26 @@
 
 Full-stack apps
 
-- [antre](https://github.com/ramaraihan12/antre): queue and booking system for small clinics and barbershops. Customers take a ticket or book a slot, staff call numbers, and a TV in the waiting room shows and announces them live. Laravel, Inertia, React, Reverb, Postgres.
-- [warung-pos](https://github.com/ramaraihan12/warung-pos): a point of sale for a small shop that keeps selling when the internet drops and syncs when it comes back. Next.js, Drizzle, Dexie, a service worker.
-- [ralaex](https://github.com/ramaraihan12/ralaex): a household finance app my wife and I use. Next.js, Supabase.
+- [antre](https://github.com/ramaraihan12/antre): queue and booking system for small clinics and barbershops. Customers take a ticket or book a slot, staff call numbers, and a TV in the waiting room shows and announces them live. Laravel, Inertia, React, Reverb, Postgres. [Live page](https://antre-eight.vercel.app).
+- [warung-pos](https://github.com/ramaraihan12/warung-pos): a point of sale for a small shop that keeps selling when the internet drops and syncs when it comes back. Next.js, Drizzle, Dexie, a service worker. [Live page](https://warung-pos-ashen.vercel.app).
+- [ralaex](https://github.com/ramaraihan12/ralaex): a household finance app my wife and I use. Next.js, Supabase. [Live page](https://ralaex-app.vercel.app).
 
 Backend and tools
 
-- [webhook-inbox](https://github.com/ramaraihan12/webhook-inbox): receives webhooks from Midtrans, Xendit or GitHub, checks the signature, stores each one and forwards it with retries. Rust, axum, Postgres.
-- [pg-backup](https://github.com/ramaraihan12/pg-backup): streams a Postgres dump to S3 or MinIO, compressed and encrypted, and proves each backup by restoring it. Go.
-- [llm-gateway](https://github.com/ramaraihan12/llm-gateway): one OpenAI-compatible endpoint in front of OpenAI, Gemini, Claude and Ollama, with fallback, rate limits and cost logs. TypeScript, Hono.
-- [issue-triage-action](https://github.com/ramaraihan12/issue-triage-action): a GitHub Action that labels new issues, points out likely duplicates and asks for missing details. TypeScript.
-- [local-ai-coding-setup](https://github.com/ramaraihan12/local-ai-coding-setup): the free local coding setup I run on a 6 GB laptop GPU, with scripts and benchmarks. llama.cpp, Ollama.
+- [webhook-inbox](https://github.com/ramaraihan12/webhook-inbox): receives webhooks from Midtrans, Xendit or GitHub, checks the signature, stores each one and forwards it with retries. Rust, axum, Postgres. [Live page](https://webhook-inbox-zeta.vercel.app).
+- [pg-backup](https://github.com/ramaraihan12/pg-backup): streams a Postgres dump to S3 or MinIO, compressed and encrypted, and proves each backup by restoring it. Go. [Release download](https://github.com/ramaraihan12/pg-backup/releases/tag/v0.1.0) with prebuilt binaries for Windows, macOS and Linux.
+- [llm-gateway](https://github.com/ramaraihan12/llm-gateway): one OpenAI-compatible endpoint in front of OpenAI, Gemini, Claude and Ollama, with fallback, rate limits and cost logs. TypeScript, Hono. [Live page](https://llm-gateway-red.vercel.app).
+- [issue-triage-action](https://github.com/ramaraihan12/issue-triage-action): a GitHub Action that labels new issues, points out likely duplicates and asks for missing details. TypeScript. [Marketplace listing](https://github.com/marketplace/actions/issue-triage-with-llms) and a [demo repo](https://github.com/ramaraihan12/issue-triage-demo) where you can open an issue.
+- [local-ai-coding-setup](https://github.com/ramaraihan12/local-ai-coding-setup): the free local coding setup I run on a 6 GB laptop GPU, with scripts and benchmarks. llama.cpp, Ollama. [Project page](https://ramaraihan.is-a.dev/local-ai-coding-setup/).
 - [chaBubbleTwitch](https://github.com/ramaraihan12/chaBubbleTwitch): a free Twitch chat overlay for OBS that shows chat as wooden speech bubbles. It joins chat anonymously, so there's no login and no token. HTML, JavaScript, tmi.js. [Live page](https://ramaraihan.is-a.dev/chaBubbleTwitch/) with a setup guide in Indonesian.
 
 AI apps
 
-- [docs-rag-assistant](https://github.com/ramaraihan12/docs-rag-assistant): ask questions about your PDF, DOCX and Markdown files and get answers that cite the page. FastAPI, LlamaIndex, pgvector.
-- [research-agent](https://github.com/ramaraihan12/research-agent): plans a question, waits for me to approve the plan, searches the web and writes a cited report. LangGraph, FastAPI.
-- [shop-support-bot](https://github.com/ramaraihan12/shop-support-bot): support chatbot for a small shop that checks orders and stock, opens tickets and hands over to a human. Next.js, Vercel AI SDK, pgvector.
-- [invoice-flow](https://github.com/ramaraihan12/invoice-flow): reads supplier invoices with an LLM, flags what looks wrong and exports approved ones to CSV and a signed webhook. Laravel, Prism PHP.
-- [text-to-sql-chat](https://github.com/ramaraihan12/text-to-sql-chat): ask a sales database questions in English or Indonesian, with the SQL checked before it runs. Python, LangChain, Streamlit, MCP.
+- [docs-rag-assistant](https://github.com/ramaraihan12/docs-rag-assistant): ask questions about your PDF, DOCX and Markdown files and get answers that cite the page. FastAPI, LlamaIndex, pgvector. [Live page](https://docs-rag-assistant-psi.vercel.app).
+- [research-agent](https://github.com/ramaraihan12/research-agent): plans a question, waits for me to approve the plan, searches the web and writes a cited report. LangGraph, FastAPI. [Live page](https://research-agent-mauve-eight.vercel.app).
+- [shop-support-bot](https://github.com/ramaraihan12/shop-support-bot): support chatbot for a small shop that checks orders and stock, opens tickets and hands over to a human. Next.js, Vercel AI SDK, pgvector. [Live page](https://shop-support-bot-ivory.vercel.app).
+- [invoice-flow](https://github.com/ramaraihan12/invoice-flow): reads supplier invoices with an LLM, flags what looks wrong and exports approved ones to CSV and a signed webhook. Laravel, Prism PHP. [Live page](https://invoice-flow-three-henna.vercel.app).
+- [text-to-sql-chat](https://github.com/ramaraihan12/text-to-sql-chat): ask a sales database questions in English or Indonesian, with the SQL checked before it runs. Python, LangChain, Streamlit, MCP. [Live page](https://text-to-sql-chat.streamlit.app).
 - [project-clipper](https://ramaraihan.is-a.dev/project-clipper/): my own pipeline that turns long videos into vertical 9:16 clips. It transcribes the video, picks the segments, crops them, burns in subtitles and uploads them to my YouTube channel. The code isn't public. Python, faster-whisper, Gemini, OpenCV, ffmpeg.
 
 ---
