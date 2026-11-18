@@ -74,6 +74,7 @@
 | <img src="https://skillicons.dev/icons?i=githubactions" width="36" alt="GitHub Actions" /> | **GitHub Actions** | Runs lint and tests on every push, and deploys my portfolio to GitHub Pages. |
 | <img src="https://cdn.simpleicons.org/coolify/8B5CF6" width="32" alt="Coolify" /> | **Coolify** | Deploys my Laravel and Next.js apps to my own VPS instead of renting a platform. |
 | <img src="https://skillicons.dev/icons?i=git" width="36" alt="Git" /> | **Git** | Version control, one branch per feature. |
+| <img src="https://cdn.simpleicons.org/cloudflareworkers/F38020" width="32" alt="Cloudflare Workers" /> | **Cloudflare Workers** | The class API of pandas-drills runs on Workers with D1, on the free plan. |
 | <img src="https://cdn.simpleicons.org/minio/C72E49" width="32" alt="MinIO" /> | **MinIO / S3** | Where pg-backup stores its backups. I run MinIO locally; it speaks the same S3 API as AWS. |
 | <img src="https://cdn.simpleicons.org/prometheus/E6522C" width="32" alt="Prometheus" /> | **Prometheus** | Metrics endpoints on webhook-inbox and pg-backup, so I can see deliveries and backups from outside. |
 
@@ -112,11 +113,12 @@ Full-stack apps
 Backend and tools
 
 - [webhook-inbox](https://github.com/ramaraihan12/webhook-inbox): receives webhooks from Midtrans, Xendit or GitHub, checks the signature, stores each one and forwards it with retries. Rust, axum, Postgres. [Live page](https://webhook-inbox-zeta.vercel.app).
-- [pg-backup](https://github.com/ramaraihan12/pg-backup): streams a Postgres dump to S3 or MinIO, compressed and encrypted, and proves each backup by restoring it. Go. [Release download](https://github.com/ramaraihan12/pg-backup/releases/tag/v0.1.0) with prebuilt binaries for Windows, macOS and Linux.
+- [pg-backup](https://github.com/ramaraihan12/pg-backup): streams a Postgres dump to S3 or MinIO, compressed and encrypted, and proves each backup by restoring it. Go. [Release download](https://github.com/ramaraihan12/pg-backup/releases/tag/v0.1.1) with prebuilt binaries for Windows, macOS and Linux.
 - [llm-gateway](https://github.com/ramaraihan12/llm-gateway): one OpenAI-compatible endpoint in front of OpenAI, Gemini, Claude and Ollama, with fallback, rate limits and cost logs. TypeScript, Hono. [Live page](https://llm-gateway-red.vercel.app).
 - [issue-triage-action](https://github.com/ramaraihan12/issue-triage-action): a GitHub Action that labels new issues, points out likely duplicates and asks for missing details. TypeScript. [Marketplace listing](https://github.com/marketplace/actions/issue-triage-with-llms) and a [demo repo](https://github.com/ramaraihan12/issue-triage-demo) where you can open an issue.
 - [local-ai-coding-setup](https://github.com/ramaraihan12/local-ai-coding-setup): the free local coding setup I run on a 6 GB laptop GPU, with scripts and benchmarks. llama.cpp, Ollama. [Project page](https://ramaraihan.is-a.dev/local-ai-coding-setup/).
 - [chaBubbleTwitch](https://github.com/ramaraihan12/chaBubbleTwitch): a free Twitch chat overlay for OBS that shows chat as wooden speech bubbles. It joins chat anonymously, so there's no login and no token. HTML, JavaScript, tmi.js. [Live page](https://ramaraihan.is-a.dev/chaBubbleTwitch/) with a setup guide in Indonesian.
+- [pandas-drills](https://github.com/ramaraihan12/pandas-drills): 15 pandas exercises that run and grade themselves in the browser with Pyodide, and work offline. A teacher makes a class link and sees where students get stuck. I built it for the vocational school where I teach. TypeScript, Pyodide, Cloudflare Workers. [Live page](https://ramaraihan.is-a.dev/pandas-drills/).
 
 AI apps
 
@@ -125,6 +127,7 @@ AI apps
 - [shop-support-bot](https://github.com/ramaraihan12/shop-support-bot): support chatbot for a small shop that checks orders and stock, opens tickets and hands over to a human. Next.js, Vercel AI SDK, pgvector. [Live page](https://shop-support-bot-ivory.vercel.app).
 - [invoice-flow](https://github.com/ramaraihan12/invoice-flow): reads supplier invoices with an LLM, flags what looks wrong and exports approved ones to CSV and a signed webhook. Laravel, Prism PHP. [Live page](https://invoice-flow-three-henna.vercel.app).
 - [text-to-sql-chat](https://github.com/ramaraihan12/text-to-sql-chat): ask a sales database questions in English or Indonesian, with the SQL checked before it runs. Python, LangChain, Streamlit, MCP. [Live page](https://text-to-sql-chat.streamlit.app).
+- [evalgate](https://github.com/ramaraihan12/evalgate): a GitHub check that fails a pull request when it makes an LLM app measurably worse. It runs a fixed question set on the base and the merge commit with a small Ollama model, compares them and comments on the PR. It guards text-to-sql-chat and docs-rag-assistant. Python, GitHub Actions, Ollama, Langfuse. [Results page](https://ramaraihan.is-a.dev/evalgate/).
 - [project-clipper](https://ramaraihan.is-a.dev/project-clipper/): my own pipeline that turns long videos into vertical 9:16 clips. It transcribes the video, picks the segments, crops them, burns in subtitles and uploads them to my YouTube channel. The code isn't public. Python, faster-whisper, Gemini, OpenCV, ffmpeg.
 
 ---
